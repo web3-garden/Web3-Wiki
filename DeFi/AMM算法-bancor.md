@@ -4,8 +4,11 @@ date: 2023-05-16 19:22
 ---
 # bancor 协议
 bancor 的命名来自于凯恩斯计划，该计划致力于引入一种名叫“Bancor”的超主权金货币，以推动二战后的国际货币兑换体系。
+
 Bancor协议是想在智能合约的基础上实现具有去中心化流通性的Token交易网络。在交易市场中，有很多长尾 token 缺乏流动性。Bancor 通过提出智能 token 技术为这些长尾 token 提出了一种新的低成本的交易方式。
+
 Bancor协议要求每个Token都需要提供“储备金”，储备金的比例每个Token自行定义（0～100%）。因为“储备金”的存在，每个Token天生通过Bancor协议可以交易，也就天生具备了去中心化流通性。使用Bancor协议进行交易的Token，Bancor协议称为“Smart Token”（智能Token）。
+
 ## 基本逻辑
 Bancor 的核心公式如下：
 
@@ -20,8 +23,11 @@ CW 是 Connector Weight连接器比重。Connector balance 是连接器余额。
 
 Smart Token’s outstanding supply 为智能 token 的供应量。
 在买卖过程中，通过以上公式进行汇率计算，并得出兑换数量。
+
 买入过程：
+
 买入可视为增加连接器代币余额同时获得增发部分的 supply。为方便计算，将上述 Price 公式因子进行缩写，P 表示 Price，R 表示 connector balance，S 表示 smart token supply，F 表示 CW。
+
 简化后公式为：
 
 ![](./image/bancor/2023-05-16-17-48-55@2x.png)
@@ -61,6 +67,7 @@ Smart Token’s outstanding supply 为智能 token 的供应量。
 
 ## 优缺点
 优点：
+
 1. 采用“人机交易”模式，成交不依赖市场流动性。
 
 2. 无价差，由于买卖价格基于同一算法，导致交易时不会有价差产生。
