@@ -10,7 +10,7 @@ Bancor协议要求每个Token都需要提供“储备金”，储备金的比例
 Bancor 的核心公式如下：
 
 ![](./image/bancor/2023-05-16-16-45-21@2x.jpg)
-<img src= ./image/bancor/2023-05-16-16-45-21@2x.jpg width=200 height=100 />
+<img src= ./image/bancor/2023-05-16-16-45-21@2x.jpg width=400 />
 CW 是 Connector Weight连接器比重。Connector balance 是连接器余额。Smart Token's total value 是智能 token 的市值。其计算如下：
 
 ![](./image/bancor/2023-05-16-16-48-47@2x.jpg)
