@@ -16,7 +16,7 @@ CW 是 Connector Weight连接器比重。Connector balance 是连接器余额。
 
 带入核心公式，可得出：
 
-![](./image/bancor/2023-05-16-16-49-16@2x.jpg)
+<img src= ./image/bancor/2023-05-16-16-49-16@2x.jpg width=400 />
 
 Smart Token’s outstanding supply 为智能 token 的供应量。
 在买卖过程中，通过以上公式进行汇率计算，并得出兑换数量。
@@ -32,7 +32,7 @@ Smart Token’s outstanding supply 为智能 token 的供应量。
 
 由于 F 是常数，继续线向下推导可得：
 
-![](./image/bancor//2023-05-16-18-30-10@2x.png)
+<img src= ./image/bancor//2023-05-16-18-30-10@2x.png width=400 />
 
 当用户买入 token时，买入部分即增发部分 token，买入支付的费用进入连接器，则：
 
@@ -40,23 +40,24 @@ Smart Token’s outstanding supply 为智能 token 的供应量。
 
 继续推导：
 
-![](./image/bancor/2023-05-16-18-30-43@2x.png)
+<img src= ./image/bancor/2023-05-16-18-30-43@2x.png width=400 />
 
 令α = 1/F -1 :
 
-![](./image/bancor/2023-05-16-18-31-34@2x.png)
+<img src= ./image/bancor/2023-05-16-18-31-34@2x.png width=400 />
 
 进行积分计算：
 
-![](./image/bancor/2023-05-16-18-31-54@2x.png)
+<img src= ./image/bancor/2023-05-16-18-31-54@2x.png width=400 />
 
 从而得出 P 与 S 的关系。
 
-![](./image/bancor/2023-05-16-18-32-18@2x.jpg)
+<img src= ./image/bancor/2023-05-16-18-32-18@2x.jpg width=400 />
 
 如果一个用户想要买总量为T的smart token，这样总供应量就会从 S0变为S0 +T，那么用户所需支付的费用为：
 
-![](./image/bancor/2023-05-16-18-33-41@2x.jpg)
+
+<img src= ./image/bancor/2023-05-16-18-33-41@2x.jpg width=400 />
 
 ## 优缺点
 优点：
@@ -66,7 +67,7 @@ Smart Token’s outstanding supply 为智能 token 的供应量。
 
 3. 价格敏感度可控，由于 CW 是设定参数，通过初始设定可以调整 token 的价格敏感度。
 
-![](./image/bancor/2023-05-16-18-57-12@2x.jpg)
+<img src= ./image/bancor/2023-05-16-18-57-12@2x.jpg width=400 />
 
 缺点：
 
