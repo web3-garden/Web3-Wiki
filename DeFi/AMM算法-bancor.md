@@ -8,7 +8,7 @@ Bancor协议是想在智能合约的基础上实现具有去中心化流通性�
 Bancor协议要求每个Token都需要提供“储备金”，储备金的比例每个Token自行定义（0～100%）。因为“储备金”的存在，每个Token天生通过Bancor协议可以交易，也就天生具备了去中心化流通性。使用Bancor协议进行交易的Token，Bancor协议称为“Smart Token”（智能Token）。
 ## 基本逻辑
 Bancor 的核心公式如下：
-![](DeFi/image/bancor/2023-05-16-16-45-21@2x.jpg)
+![](./image/bancor/2023-05-16-16-45-21@2x.jpg)
 CW 是 Connector Weight连接器比重。Connector balance 是连接器余额。Smart Token's total value 是智能 token 的市值。其计算如下：
 ![](./_image/2023-05-16/2023-05-16-16-48-47@2x.jpg)
 带入核心公式，可得出：
