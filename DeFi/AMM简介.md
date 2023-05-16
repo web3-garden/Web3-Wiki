@@ -12,7 +12,9 @@ AMM 是 Automated Market Maker 的缩写，指自动做市商。AMM 是通过算
 上述两种 Dex 的最大问题，就是其依赖人工交易订单构建交易深度，在性能和体验问题得不到解决的情况下，很难建立满足大规模交易的有效深度，因此通过算法来提升有限流动性池的资金利用率，似乎成了唯一选择，只有这样才能保证深度有限时的交易时效和平滑。尤其在当今加密货币种类繁多的情况下，AMM针对 LTA（长尾资产）更好的流动性解决方案。
 # 常见的 AMM 机制
 * Bancor - Bancor Network
+
 https://github.com/web3-garden/Web3-Wiki/blob/main/DeFi/AMM%E7%AE%97%E6%B3%95-bancor.md
+
 * 恒定乘积 - Uniswap
 * 恒定和 - Balancer
 * Curve - Curve
