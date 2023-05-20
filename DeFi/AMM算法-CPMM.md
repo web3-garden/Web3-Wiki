@@ -27,7 +27,9 @@ CPMM支撑用户交易的核心就在于流动性池。流动性池代表流动�
 ## 滑点
 所谓滑点，是指实际成交价格与标记价格之间的差距，在上文价格计算中已知标记价格和实际价格的计算方法，当用户兑换资产时，实际价格与标记价格之间的差距``P'-P``即为“滑点”。
 在流动性池一定的情况下，用户兑换资产比例越多，在反比曲线中的偏移越多，价格斜率改变越大，滑点越高。
-<img src="./image/CPMM/3561684545037_.pic.jpg" weidh=200 style="margin: 0 auto;"/>
+<div style="text-align: center">
+<img src="./image/CPMM/3561684545037_.pic.jpg" width=400 />
+</div>
 当用户兑换一定数量的资产时，流动性池越大，用户兑换数量在反比例曲线中的偏移越小，价格斜率改变越小，滑点越低。
 因此，增加流动性池可使交易滑点降低。
 
@@ -39,7 +41,7 @@ CPMM支撑用户交易的核心就在于流动性池。流动性池代表流动�
 变化后资产乘积``(u+△u)·(y-△y)=k``
 由此可得y次产变化
 
-<img src="./image/CPMM/3571684553638_.pic.jpg" weith=200 style="margin: 0 auto;"/>
+<img src="./image/CPMM/3571684553638_.pic.jpg" width=200 style="margin: 0 auto;"/>
 
 此时y资产价格``P'=(u+△u)/(y-△y)``
 用户流动性份额总价值变为``2(u+△u)``
@@ -49,15 +51,15 @@ CPMM支撑用户交易的核心就在于流动性池。流动性池代表流动�
 ``V=u+P‘*y``
 将P’带入可得
 
-<img src="./image/CPMM/3581684556469_.pic.jpg" weith=200 style="margin: 0 auto;"/>
+<img src="./image/CPMM/3581684556469_.pic.jpg" width=200 style="margin: 0 auto;"/>
 
 将△y带入可得
 
-<img src="./image/CPMM/3601684557012_.pic.jpg" weith=200 style="margin: 0 auto;"/>
+<img src="./image/CPMM/3601684557012_.pic.jpg" width=200 style="margin: 0 auto;"/>
 
 无常损失``△V=V’-V``，得出
 
-<img src="./image/CPMM/3611684557329_.pic.jpg" weith=200 style="margin: 0 auto;"/>
+<img src="./image/CPMM/3611684557329_.pic.jpg" width=200 style="margin: 0 auto;"/>
 
 这部分无常损失是指当资产价格发生变动时流动性份额总价值与持有原资产数量的当前价值的比较。
 还可以这样理解无常损失：
