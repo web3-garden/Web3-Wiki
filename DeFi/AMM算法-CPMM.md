@@ -40,27 +40,21 @@ CPMM支撑用户交易的核心就在于流动性池。流动性池代表流动�
 初始资产乘积``u·y=k`` 
 变化后资产乘积``(u+△u)·(y-△y)=k``
 由此可得y次产变化
-<div align="center">
-<img src="./image/CPMM/3571684553638_.pic.jpg" width=200 style="margin: 0 auto;"/>
-</div>
-此时y资产价格``P'=(u+△u)/(y-△y)``
+<img src="./image/CPMM/3571684553638_.pic.jpg" weith=200/>
+
+此时y资产价格``P'=(u+△u)/(y-DeFi/image/CPMM/3581684556469_.pic.jpg)``
 用户流动性份额总价值变为``2(u+△u)``
 由此可见，若△u为正（代表y资产价格上涨），则流动性提供者的流动性份额总价值也将增值。
 那所谓“损失”如何理解呢？
 流动性提供者最初是的资产结构是u+y，若按照交易后的价格来计算其总价值应是
 ``V=u+P‘*y``
 将P’带入可得
-<div align="center">
-<img src="./image/CPMM/3581684556469_.pic.jpg" width=200 style="margin: 0 auto;"/>
-</div>
+<img src="./image/CPMM/3581684556469_.pic.jpg" weith=200 />
 将△y带入可得
-<div align="center">
-<img src="./image/CPMM/3601684557012_.pic.jpg" width=200 style="margin: 0 auto;"/>
-</div>
+<img src="./image/CPMM/3601684557012_.pic.jpg" weith=200 />
+
 无常损失``△V=V’-V``，得出
-<div align="center">
-<img src="./image/CPMM/3611684557329_.pic.jpg" width=200 style="margin: 0 auto;"/>
-</div>
+<img src="./image/CPMM/3611684557329_.pic.jpg" weith=200 />
 这部分无常损失是指当资产价格发生变动时流动性份额总价值与持有原资产数量的当前价值的比较。
 还可以这样理解无常损失：
 当一种资产价格不断上涨时，流动性持有者会不断卖出此资产，相比于长持不卖者少赚的损失就是无常损失。
