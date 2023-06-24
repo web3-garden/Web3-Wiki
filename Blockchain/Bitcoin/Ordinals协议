@@ -1,0 +1,6 @@
+## 简介
+Ordinals协议是通过比特币挖矿sat的顺序作为序号，并将其铭刻内容从而构建NFT的一种方法。Ordinals协议让比特币网络得以记录NFT，创建了一条新的赛道。
+## 具体原理
+Ordinals的原理主要来基于比特币挖矿和交易机制，主要基础理论如下：
+1. 比特币最小单位是sat（satoshi），1BTC=10^8 sat。
+2. 比特币交易采用UTXO模型，详情见：Blockchain/Bitcoin/UTXO.md
