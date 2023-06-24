@@ -1,13 +1,13 @@
 ---
-title: <The EIP title is a few words, not a complete sentence>
-description: <Description is one full (short) sentence>
+title: NFT的历史持有证明
+description: 为NFT持有者提供历史持有证明，证明其历史持有人的身份并享受一些权益。
 author: <a comma separated list of the author's or authors' name + GitHub username (in parenthesis), or name and email (in angle brackets).  Example, FirstName LastName (@GitHubUsername), FirstName LastName <foo@bar.com>, FirstName (@GitHubUsername) and GitHubUsername (@GitHubUsername)>
 discussions-to: <URL>
 status: Draft
 type: <Standards Track, Meta, or Informational>
 category: <Core, Networking, Interface, or ERC> # Only required for Standards Track. Otherwise, remove this field.
 created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
-requires: <EIP number(s)> # Only required when you reference an EIP in the `Specification` section. Otherwise, remove this field.
+requires: ERC-721 # Only required when you reference an EIP in the `Specification` section. Otherwise, remove this field.
 ---
 
 <!--
@@ -29,6 +29,7 @@ requires: <EIP number(s)> # Only required when you reference an EIP in the `Spec
 
   TODO: Remove this comment before submitting
 -->
+
 
 ## Motivation
 
