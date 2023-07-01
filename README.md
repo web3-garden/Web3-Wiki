@@ -39,6 +39,7 @@
   * [x2e设计方法论](./Economic%20Model/x2e%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95%E8%AE%BA.md)
 * Gamefi
 * Socialfi
+  * [Twitter用户社交影响力计算-PageRank算法](./Socialfi/Twitter%E7%94%A8%E6%88%B7%E7%A4%BE%E4%BA%A4%E5%BD%B1%E5%93%8D%E5%8A%9B%E8%AE%A1%E7%AE%97-PageRank%E7%AE%97%E6%B3%95.md)
 * Tools
   * Dune
   * [Nansen](./Tools/Nansen.md)
