@@ -51,7 +51,7 @@
     * [道氏理论](./Trading/%E4%BA%A4%E6%98%93%E7%90%86%E8%AE%BA/%E9%81%93%E6%B0%8F%E7%90%86%E8%AE%BA.md)
     * [缠论](./Trading/%E4%BA%A4%E6%98%93%E7%90%86%E8%AE%BA/%E7%BC%A0%E8%AE%BA.md)
   * CEX
-  * [交易指标](./Trading/%E4%BA%A4%E6%98%93%E6%8C%87%E6%A0%87.md)
+    * [交易指标](./Trading/%E4%BA%A4%E6%98%93%E6%8C%87%E6%A0%87.md)
   * [消息面K线指标](./Trading/%E4%B8%80%E7%A7%8D%E6%B6%88%E6%81%AF%E9%9D%A2K%E7%BA%BF%E6%8C%87%E6%A0%87.md)
 * Wallet
   * [钱包基础知识](./Wallet/%E9%92%B1%E5%8C%85%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md)
