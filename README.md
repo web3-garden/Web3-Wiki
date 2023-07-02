@@ -33,7 +33,8 @@
     * [CRVUSD](./DeFi/Stablecoins/CRVUSD.md)
     * [DAI](./DeFi/Stablecoins/DAI.md)
   * Synthetics
-  * LSDFi
+  * LSD
+    * [LSD介绍](./DeFi/LSD/LSD%E4%BB%8B%E7%BB%8D.md)
 * Economic Model
   * [一种游戏资产NFT的发行方式](./Economic%20Model/%E4%B8%80%E7%A7%8D%E6%B8%B8%E6%88%8F%E8%B5%84%E4%BA%A7NFT%E7%9A%84%E5%8F%91%E8%A1%8C%E6%96%B9%E5%BC%8F.md)
   * [x2e设计方法论](./Economic%20Model/x2e%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%B3%95%E8%AE%BA.md)
