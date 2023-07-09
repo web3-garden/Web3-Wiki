@@ -1,12 +1,20 @@
 ---
 title: 支持题跋的NFT
+
 description: 使NFT持有人可以向NFT中写入题跋，使NFT可以记录历史，加强NFT的收藏属性。
+
 author: 作者
+
 discussions-to: <URL>
+
 status: Draft
+
 type: Standards Track
+
 category: ERC
+
 created: 2023-07-15
+
 requires: ERC-721 
 
 ## Abstract
