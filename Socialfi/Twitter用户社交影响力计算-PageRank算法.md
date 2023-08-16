@@ -1,10 +1,13 @@
 <div align="center">
 <img src="./image/Pagerank.png" width=800 />
 </div>
+
 # Pagerank 算法简介
+
 Pagerank 算法最早是Google公司所使用的对其搜索引擎搜索结果中的网页进行排名的一种算法。Pagerank 算法是一种图算法，使用递归算法充分考虑了每个节点的影响力作用，其使用 In-coming Links 作为核心指标，屏蔽了诸多作弊可能性，被称为民主自治算法。社交网络也是一种复杂的图网络，与网页排名类似，因此可以使用 Pagerank 算法进行社交网络中节点影响力的评估。
 
 # 评估 Twitter 用户社交影响力
+
 <div align="center">
 <img src="./image/PageRankdia.png" width=800 />
 </div>
@@ -14,6 +17,7 @@ Pagerank 算法最早是Google公司所使用的对其搜索引擎搜索结果�
 Twitter 主要通过 Follow（Out-going Links） 和被 Follow（In-coming Links） 来标记用户关系，而 Follow 是可以主动控制的动作，在 Pagerank 中不以此指标计算，因此采用被 Follow 数据作为核心指标参与计算。
 
 # 评估用户在垂直领域中的影响力
+
 评估一个用户在一个垂直领域中的影响力，需对用户进行三个方面的评估：
 
 - 社交影响力：将用户社交影响力量化，用于计算用户发布/转发内容行为的重要程度，即基本价值。
@@ -25,7 +29,9 @@ Twitter 主要通过 Follow（Out-going Links） 和被 Follow（In-coming Links
 - 资产数量
 - 交易活跃度
 - Dapp 活跃度
+- 
 # 评估内容价值
+
 主要从传播范围、传播精准度和传播效果三个方面对内容进行评估。
 
 - 传播范围：指内容的有效浏览数。
